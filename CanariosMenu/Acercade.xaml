@@ -1,0 +1,35 @@
+﻿<Window x:Class="CanariosMenu.Acercade"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CanariosMenu"
+        mc:Ignorable="d"
+        Title="Acercade" Height="150" Width="300">
+    <Grid>
+        <Label Name="version" 
+               Content="Version 1.0" 
+               Height="28"  Width="75"
+               Margin="100,16,0,0" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Top" />
+
+        <Label  Name="FechaCreacion" 
+                Content="Fecha creación: Febrero 2019 - Universidad del Tolima" 
+                Height="28"  Width="172"
+                Margin="48,52,72,0"
+                HorizontalAlignment="Center"  
+                VerticalAlignment="Top" >
+        </Label>
+
+        <Button  Name="ok" 
+                 Content="OK" 
+                 Height="23"  Width="78"
+                 Margin="100,85,0,0"
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 Click="Ok_Click" >
+        </Button>
+
+    </Grid>
+</Window>
